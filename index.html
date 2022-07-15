@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.17">
+<title>Blockchain em Metas (e Resultados)</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="./asciidoctor.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="article toc2 toc-left">
+<div id="header">
+<h1>Blockchain em Metas (e Resultados)</h1>
+<div id="toc" class="toc2">
+<div id="toctitle">Blockchain em Metas (e Resultados)</div>
+<ul class="sectlevel1">
+<li><a href="#introdução">Introdução</a></li>
+<li><a href="#calendários">Calendários</a>
+<ul class="sectlevel2">
+<li><a href="#brutos">Brutos</a></li>
+<li><a href="#refinados">Refinados</a></li>
+</ul>
+</li>
+<li><a href="#metas">Metas</a>
+<ul class="sectlevel2">
+<li><a href="#detalhamento">Detalhamento</a></li>
+</ul>
+</li>
+<li><a href="#MetasApp">Metas.App</a>
+<ul class="sectlevel2">
+<li><a href="#tecnologias">Tecnologias</a></li>
+</ul>
+</li>
+<li><a href="#sobre-esta-página">Sobre esta página</a></li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph text-center">
+<p>&#160;<br>
+&#160;<br>
+&#160;<br>
+&#160;<br>
+&#160;<br>
+Autor: <strong>Paulo Jerônimo</strong> (<a href="https://paulojeronimo.com" class="bare">https://paulojeronimo.com</a>).<br>
+Versão: <strong>2022-07-15 18:06:07 -0300.</strong><br>
+Estado desta página: <strong>EM DESENVOLVIMENTO</strong>.<br>
+&#160;<br>
+&#160;<br>
+&#160;<br>
+&#160;<br>
+&#160;</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+Baixe a versão em PDF desta página em
+<a href="blockchain-em-metas.pdf" class="bare">blockchain-em-metas.pdf</a>.
+</td>
+</tr>
+</table>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="introdução"><a class="anchor" href="#introdução"></a>Introdução</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Participar de um <a href="https://blockchainrio.com.br/">um grande evento de tecnologia</a> é
+sempre muito interessante!
+<strong>Aprender muito</strong> e <strong>conhecer pessoas</strong> (ampliando o <em>network</em>) são os
+maiores objetivos, com certeza, de muita gente que se inscreve em um
+evento como o <strong><a href="https://blockchainrio.com.br/">Blockchain Rio</a></strong>.
+Para mim, além de contemplar esses dois (2) objetivos, a participação
+nesse evento também é motivacional para o estabelecimento de algumas
+<a href="#metas">Metas</a> que torno públicas nesta página.</p>
+</div>
+<div class="paragraph">
+<p><a href="#metas">Metas</a> devem estar na pauta de todo bom profissional (em qualquer
+área) e de todo atleta (partindo dos amadores).  Gosto muito desse
+assunto e, algumas vezes, tentei incentivar pessoas a trabalhar comigo
+do desenvolvimento de um aplicativo descentralizado (DApp) sobre isso,
+como você pode ver em alguns vídeos (<a href="https://www.instagram.com/p/B7cKrFuHdC6/">1</a>, <a href="https://www.youtube.com/watch?v=smpcotGqlX8">2</a>) que
+criei.
+Porém, minha estratégia de chamar pessoas para me ajudar não foi bem
+sucedida e, por outras prioridades no trabalho, acabou que nunca
+criei esse DApp.
+A última tentativa que fiz de chamar pessoas para me ajudar nisso
+<a href="https://www.youtube.com/watch?v=I9cZnMsuO6s">está nesse vídeo</a>.</p>
+</div>
+<div class="paragraph">
+<p>Passados mais de dois anos, e agora com bem mais experiência em
+tecnologias de <em>frontend</em> úteis na criação de DApps, neste momento eu
+tenho muito mais facilidade para desenvolver o <a href="#MetasApp">Metas.App</a>, até mesmo
+com pouca ajuda de outras pessoas, de uma forma <em>fullstack</em>.</p>
+</div>
+<div class="paragraph">
+<p>O <a href="https://blockchainrio.com.br/">Blockchain Rio</a> me trouxe motivação suficiente para priorizar e
+finalizar a entrega de um <a href="https://pt.wikipedia.org/wiki/Produto_vi%C3%A1vel_m%C3%ADnimo">MVP</a> para do <a href="#MetasApp">Metas.App</a>.
+Na semana desse evento (e antes de seu início) eu irei explicar, em um
+curso online e gratuito, como desenvolvi esse MVP de acordo com as
+regras que apresento nesta página.
+Então, minha meta para isso é a "<a href="#meta-cursometasappv1">Curso MVP Metas.App</a>".
+Além disso, no primeiro dia do <a href="https://blockchainrio.com.br/">Blockchain Rio</a>, também farei o
+lançamento desse DApp em produção.
+Essa é a minha meta "<a href="#meta-lancamentometasappv1">Lança. MVP Metas.App</a>".</p>
+</div>
+<div class="paragraph">
+<p>Como um <a href="https://finisher.tech/saudeecripto.pdf">triatleta amador (3 x Ironman)</a> que
+<a href="https://finisher.tech/sobrepeso-adoece.pdf">por razões de saúde não pode ficar sem
+atividades físicas diárias</a>, você verá que várias das minhas <a href="#metas">Metas</a>
+são relativas a atividades esportivas e, nos próximos dias, também
+focadas em emagrecimento através de atividades como <a href="#meta-corrida21min">21 min corrida</a>
+e <a href="#meta-hiit21min">21 min HIIT</a>.</p>
+</div>
+<div class="paragraph">
+<p>O <a href="#MetasApp">Metas.App</a> é, fundamentalmente, um DApp que auxilia pessoas a
+elaborarem (ou aderirem a) metas de bem-estar, e de outras categorias,
+de forma a ganharem tokens fungíveis e não fungíveis (NFTs) pelos
+resultados de suas metas.</p>
+</div>
+<div id="notificacoes" class="paragraph">
+<p>Acompanhe o lançamento de novas versões desta página, notificadas em
+<a href="https://www.linkedin.com/in/paulojeronimo/">meu LinkedIn</a> até o <a href="#meta-cursometasappv1">Curso MVP Metas.App</a>,
+para obter o conhecimento (negocial) necessário para o entender o que
+será apresentado nesse curso (para desenvolvedores de software).</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="calendários"><a class="anchor" href="#calendários"></a>Calendários</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Os calendários "<a href="#brutos">Brutos</a>" (ou "não <a href="#refinados">Refinados</a>") a seguir apresentam
+<strong>oito (8) semanas</strong> contemplando os dias <strong>a partir do dia 14 de Julho
+(quinta-feira) e até o dia 7 de Setembro de 2022 (quarta-feira)</strong>.
+O primeiro calendário vai até a semana 3 e o segundo vai da semana 4 a
+8 (5 semanas).
+Ele mostra algumas de minhas atividades e <a href="#metas">Metas</a> até essa oitava
+semana, quando ocorrerá o <a href="https://blockchainrio.com.br/">Blockchain Rio</a>.</p>
+</div>
+<div class="paragraph">
+<p>Detalhes (interessantes):</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>O número oito (8) é um <a href="https://finisher.tech/fibonacci-app/">número da série de
+  Fibonacci</a> (&#8592; veja esse app que desenvolvi para que você aprenda
+sobre esses números).
+Nessa série cada número é a soma dos dois anteriores (8 é a soma de 5
+com 3, 5 é a soma de 3 com 2, &#8230;&#8203;, até 1 que é a soma de 1 com 0).
+Pode acreditar: eles são números mágicos e, geralmente, gosto de
+utilizá-los para definir minhas <a href="#metas">Metas</a>.
+😁</p>
+</li>
+<li>
+<p>Os links (clicáveis) nos dias remetem a mais detalhes que sobre
+atividades (ou <a href="#metas">Metas</a>) apresentadas nele.</p>
+</li>
+<li>
+<p><a id="regra-refina"></a> As metas da semana corrente são, obrigatoriamente,
+  refinadas em seu primeiro dia (&#8592; <strong>regra-refina</strong>).
+Dessa forma as metas da semana 1 são refinadas no dia 14/Jul, as da
+semana 2 no dia 21/Jul e assim por diante.</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="brutos"><a class="anchor" href="#brutos"></a>Brutos</h3>
+<div class="paragraph">
+<p>Calendários "Brutos" contém <a href="#metas">Metas</a> que precisam ser refinadas,
+semanalmente, conforme a <a href="#regra-refina">[regra-refina]</a>.
+Refinar uma meta significa torná-la ainda mais <em>SMART</em> (e<strong>S</strong>pecífica,
+<strong>M</strong>ensurável, <strong>A</strong>tingível, <strong>R</strong>elevante e <strong>T</strong>emporizável).</p>
+</div>
+<table id="sem1-bru" class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 6.6666%;">
+<col style="width: 13.3333%;">
+<col style="width: 13.3333%;">
+<col style="width: 13.3333%;">
+<col style="width: 13.3333%;">
+<col style="width: 13.3333%;">
+<col style="width: 13.3333%;">
+<col style="width: 13.3336%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top">Semana</th>
+<th class="tableblock halign-center valign-top">Qui</th>
+<th class="tableblock halign-center valign-top">Sex</th>
+<th class="tableblock halign-center valign-top">Sab</th>
+<th class="tableblock halign-center valign-top">Dom</th>
+<th class="tableblock halign-center valign-top">Seg</th>
+<th class="tableblock halign-center valign-top">Ter</th>
+<th class="tableblock halign-center valign-top">Qua</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>1</strong><br>
+<a href="#sem1-ref">Ref</a><br>
+Res</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">14/Jul<br>
+<strong><a href="#meta-jejum24h">24 h Jejum</a></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">15<br>
+<strong><a href="#meta-ativfis1hd">1 h/d ativ. fís.</a></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">16<br>
+<strong><a href="#meta-ativfis1hd">1 h/d ativ. fís.</a> x 1,5</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">17<br>
+<strong><a href="#meta-ativfis1hd">1 h/d ativ. fís.</a> x 2</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">18<br>
+<strong><a href="#meta-ativfis1hd">1 h/d ativ. fís.</a></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">19<br>
+<strong><a href="#meta-jejum24h">24 h Jejum</a></strong><br>
+<strong><a href="#meta-ativfis1hd">1 h/d ativ. fís.</a></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">20<br>
+<strong><a href="#meta-ativfis1hd">1 h/d ativ. fís.</a></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>2</strong><br></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">21<br></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">22</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">23</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">24</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">25</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">26<br></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">27</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>3</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">28<br></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">29</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">30<br>
+<strong><a href="#meta-july10k">July 10k Strava</a></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">31</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">01/Ago</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">02<br></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">03</p></td>
+</tr>
+</tbody>
+</table>
+<div style="page-break-after: always;"></div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 6.6666%;">
+<col style="width: 13.3333%;">
+<col style="width: 13.3333%;">
+<col style="width: 13.3333%;">
+<col style="width: 13.3333%;">
+<col style="width: 13.3333%;">
+<col style="width: 13.3333%;">
+<col style="width: 13.3336%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top">Semana</th>
+<th class="tableblock halign-center valign-top">Qui</th>
+<th class="tableblock halign-center valign-top">Sex</th>
+<th class="tableblock halign-center valign-top">Sab</th>
+<th class="tableblock halign-center valign-top">Dom</th>
+<th class="tableblock halign-center valign-top">Seg</th>
+<th class="tableblock halign-center valign-top">Ter</th>
+<th class="tableblock halign-center valign-top">Qua</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>4</strong><br></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">04/Ago<br>
+<strong><span class="red"><a href="#meta-menos5kg">5 kg + leve</a></span></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">05</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">06</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">07</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">08</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">09</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">10</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>5</strong><br></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">11</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">12</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">13</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">14</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">15</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">16</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">17</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>6</strong><br></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">18</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">19</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">20</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">21</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">22</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">23</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">24</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>7</strong><br></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">25<br>
+<strong><span class="red"><a href="#meta-menos10kg">10 kgs + leve</a></span></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">26</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">27<br>
+<strong><span class="green">Vôo de ida Brasília &#8594; Rio de Janeiro</span></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">28</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">29<br>
+<strong><a href="#meta-cursometasappv1">Curso MVP Metas.App</a></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">30<br>
+<strong><a href="#meta-cursometasappv1">Curso MVP Metas.App</a></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">31<br>
+<strong><a href="#meta-cursometasappv1">Curso MVP Metas.App</a></strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>8</strong><br></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">01/Set<br>
+<strong><a href="https://blockchainrio.com.br/">Blockchain Rio</a></strong><br>
+<strong><a href="#meta-lancamentometasappv1">Lança. MVP Metas.App</a></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">02<br>
+<strong><a href="https://blockchainrio.com.br/">Blockchain Rio</a></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">03<br>
+<strong><a href="https://blockchainrio.com.br/">Blockchain Rio</a></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">04<br>
+<strong><a href="https://blockchainrio.com.br/">Blockchain Rio</a></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">05<br>
+<strong><a href="#meta-finishertechdao">DAO Finisher.Tech</a></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">06</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">07<br>
+Feriado Nacional</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="refinados"><a class="anchor" href="#refinados"></a>Refinados</h3>
+<div class="paragraph">
+<p>Esses são os calendários já refinados (conforme a <a href="#regra-refina">[regra-refina]</a>).</p>
+</div>
+<div class="paragraph">
+<p><a id="regra-verifica-execucao"></a> Diariamente, o <a href="#MetasApp">Metas.App</a> executa
+processos que verificam a execução das metas refinadas e apresentadas
+nesses calendários (&#8592; <strong>regra-verifica-execucao</strong>).</p>
+</div>
+<table id="sem1-ref" class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 6.6666%;">
+<col style="width: 13.3333%;">
+<col style="width: 13.3333%;">
+<col style="width: 13.3333%;">
+<col style="width: 13.3333%;">
+<col style="width: 13.3333%;">
+<col style="width: 13.3333%;">
+<col style="width: 13.3336%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top">Semana</th>
+<th class="tableblock halign-center valign-top">Qui</th>
+<th class="tableblock halign-center valign-top">Sex</th>
+<th class="tableblock halign-center valign-top">Sab</th>
+<th class="tableblock halign-center valign-top">Dom</th>
+<th class="tableblock halign-center valign-top">Seg</th>
+<th class="tableblock halign-center valign-top">Ter</th>
+<th class="tableblock halign-center valign-top">Qua</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><strong>1</strong><br>
+<a href="#sem1-bru">Bru</a></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">14/Jul<br>
+<strong><a href="#meta-jejum24h">24 h Jejum</a></strong><br>
+<strong><a href="#meta-caminhada34min">34 min caminhada</a></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">15<br>
+<strong><a href="#meta-caminhada34min">34 min caminhada</a></strong><br>
+<strong><a href="#meta-corrida21min">21 min corrida</a></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">16<br>
+<strong><a href="#meta-caminhada34min">34 min caminhada</a></strong><br>
+<strong><a href="#meta-hiit21min">21 min HIIT</a> x 2</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">17<br>
+<strong><a href="#meta-caminhada34min">34 min caminhada</a></strong><br>
+<strong><a href="#meta-hiit21min">21 min HIIT</a> x 2</strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">18<br>
+<strong><a href="#meta-caminhada34min">34 min caminhada</a></strong><br>
+<strong><a href="#meta-corrida21min">21 min corrida</a></strong>
+<strong><a href="#meta-hiit21min">21 min HIIT</a></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">19<br>
+<strong><a href="#meta-jejum24h">24 h Jejum</a></strong>
+<strong><a href="#meta-caminhada34min">34 min caminhada</a></strong><br>
+<strong><a href="#meta-corrida21min">21 min corrida</a></strong>
+<strong><a href="#meta-hiit21min">21 min HIIT</a></strong></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">20<br>
+<strong><a href="#meta-caminhada34min">34 min caminhada</a></strong><br>
+<strong><a href="#meta-corrida21min">21 min corrida</a></strong>
+<strong><a href="#meta-hiit21min">21 min HIIT</a></strong></p></td>
+</tr>
+</tbody>
+</table>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="metas"><a class="anchor" href="#metas"></a>Metas</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong><a id="meta-ativfis1hd"></a> <a href="#detmeta-ativfis1hd">1 h/d ativ. fís.</a> &#8594; Realizar 1 hora de atividades físicas por dia</strong>.</p>
+</li>
+<li>
+<p><strong><a id="meta-caminhada34min"></a> <a href="#detmeta-caminhada34min">34 min caminhada</a> &#8594; Caminhar por 34 minutos a uma velocidade superior a 7 km/h</strong>.</p>
+</li>
+<li>
+<p><strong><a id="meta-corrida21min"></a> <a href="#detmeta-corrida21min">21 min corrida</a> &#8594; Correr por 21 minutos (ou +)</strong>.</p>
+</li>
+<li>
+<p><strong><a id="meta-hiit21min"></a> <a href="#detmeta-hiit21min">21 min HIIT</a> &#8594; Realizar 'High Intensity Interval Training' (HIIT) por 21 minutos</strong>.</p>
+</li>
+<li>
+<p><strong><a id="meta-july10k"></a> <a href="#detmeta-july10k">July 10k Strava</a> &#8594; Participar do desafio 'July 10k' da Strava</strong>.</p>
+</li>
+<li>
+<p><strong><a id="meta-menos5kg"></a> <a href="#detmeta-menos5kg">5 kg + leve</a> &#8594; Estar 5 kgs mais leve que em uma data específica</strong>.</p>
+</li>
+<li>
+<p><strong><a id="meta-menos10kg"></a> <a href="#detmeta-menos10kg">10 kgs + leve</a> &#8594; Estar 10 kgs mais leve que em uma data específica</strong>.</p>
+</li>
+<li>
+<p><strong><a id="meta-cursometasappv1"></a> <a href="#detmeta-cursometasappv1">Curso MVP Metas.App</a> &#8594; Apresentar um curso focado no desenvolvimento do MVP do Metas.App</strong>.</p>
+</li>
+<li>
+<p><strong><a id="meta-lancamentometasappv1"></a> <a href="#detmeta-lancamentometasappv1">Lança. MVP Metas.App</a> &#8594; Lançar o MVP do Metas.App em produção</strong>.</p>
+</li>
+<li>
+<p><strong><a id="meta-finishertechdao"></a> <a href="#detmeta-finishertechdao">DAO Finisher.Tech</a> &#8594; Apresentar a Finisher.Tech como uma DAO</strong>.</p>
+</li>
+<li>
+<p><strong><a id="meta-jejum24h"></a> <a href="#detmeta-jejum24h">24 h Jejum</a> &#8594; Realizar 24 horas de Jejum</strong>.</p>
+</li>
+</ol>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="sect2">
+<h3 id="detalhamento"><a class="anchor" href="#detalhamento"></a>Detalhamento</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a id="detmeta-ativfis1hd"></a> <a href="#meta-ativfis1hd">1 h/d ativ. fís.</a>:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Realizar 1 hora de atividades físicas por dia.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><a id="detmeta-caminhada34min"></a> <a href="#meta-caminhada34min">34 min caminhada</a>:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Caminhar por 34 minutos a uma velocidade superior a 7 km/h.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><a id="detmeta-corrida21min"></a> <a href="#meta-corrida21min">21 min corrida</a>:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Correr por 21 minutos (ou +).</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><a id="detmeta-hiit21min"></a> <a href="#meta-hiit21min">21 min HIIT</a>:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Realizar 'High Intensity Interval Training' (HIIT) por 21 minutos.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><a id="detmeta-july10k"></a> <a href="#meta-july10k">July 10k Strava</a>:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Participar do desafio 'July 10k' da Strava.</p>
+</li>
+<li>
+<p><a href="https://www.strava.com/challenges/July-10k-2022" class="bare">https://www.strava.com/challenges/July-10k-2022</a>.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><a id="detmeta-menos5kg"></a> <a href="#meta-menos5kg">5 kg + leve</a>:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Estar 5 kgs mais leve que em uma data específica.</p>
+</li>
+<li>
+<p>Data específica: 07/Jul/2022.</p>
+</li>
+<li>
+<p>Metas auxiliares:</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p><a href="#meta-jejum24h">24 h Jejum</a></p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><a id="detmeta-menos10kg"></a> <a href="#meta-menos10kg">10 kgs + leve</a>:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Estar 10 kgs mais leve que em uma data específica.</p>
+</li>
+<li>
+<p>Data específica: 07/Jul/2022.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><a id="detmeta-cursometasappv1"></a> <a href="#meta-cursometasappv1">Curso MVP Metas.App</a>:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Apresentar um curso focado no desenvolvimento do MVP do Metas.App.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><a id="detmeta-lancamentometasappv1"></a> <a href="#meta-lancamentometasappv1">Lança. MVP Metas.App</a>:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Lançar o MVP do Metas.App em produção.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><a id="detmeta-finishertechdao"></a> <a href="#meta-finishertechdao">DAO Finisher.Tech</a>:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Apresentar a Finisher.Tech como uma DAO.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p><a id="detmeta-jejum24h"></a> <a href="#meta-jejum24h">24 h Jejum</a>:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Realizar 24 horas de Jejum.</p>
+</li>
+<li>
+<p>Geralmente, iniciado às 20:00:00 do dia anterior e durando até às
+19:59:59 do dia corrente.</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="MetasApp"><a class="anchor" href="#MetasApp"></a>Metas.App</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>O <a href="#MetasApp">Metas.App</a> é, fundamentalmente, um DApp que auxilia pessoas a
+elaborarem (ou aderirem a) metas de bem-estar, e de outras categorias,
+de forma a ganharem tokens fungíveis e não fungíveis (NFTs) pelos
+resultados de suas metas.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+Acompanhe <a href="#notificacoes">[notificacoes]</a> da evolução desta página que trarão mais
+detalhes a respeito.
+</td>
+</tr>
+</table>
+</div>
+<div class="sect2">
+<h3 id="tecnologias"><a class="anchor" href="#tecnologias"></a>Tecnologias</h3>
+<div class="paragraph">
+<p>O <a href="https://pt.wikipedia.org/wiki/Produto_vi%C3%A1vel_m%C3%ADnimo">MVP</a> do Metas.App está em desenvolvimento fazendo uso de tecnologias
+como as seguintes:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><em>Backend</em>:
+<a href="https://docs.soliditylang.org/en/v0.8.15/">Solidity</a>, <a href="https://hardhat.org/">Hardhat</a>, <a href="https://infura.io/">Infrura</a>, <a href="https://github.com/ipfs/ipfs">IPFS</a>, <a href="https://ethereum.org/en/developers/docs/standards/tokens/erc-20/">ERC-20</a>,
+<a href="https://ethereum.org/en/developers/docs/standards/tokens/erc-721/">ERC-721</a>, <a href="https://ethereum.org/en/developers/docs/standards/tokens/erc-1155/">ERC-1155</a>, <a href="https://polygon.technology/">Polygon</a>.</p>
+</li>
+<li>
+<p><em>Frontend</em>:
+<a href="https://www.typescriptlang.org/">TypeScript</a>, <a href="https://reactjs.org/">React.js</a>, <a href="https://nextjs.org/">Next.js</a>, <a href="https://docs.ethers.io/v5/">Ethers.js</a>, <a href="https://metamask.io/">Metamask</a>.</p>
+</li>
+</ol>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="sobre-esta-página"><a class="anchor" href="#sobre-esta-página"></a>Sobre esta página</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Esta página é escrita em <a href="https://docs.asciidoctor.org/asciidoc/latest/">AsciiDoc</a> e renderizado nos
+formatos HTML e PDF.
+Seu código fonte está disponível sob a licença MIT no seguinte
+repositõrio Git: <a href="https://github.com/paulojeronimo/blockchain-em-metas" class="bare">https://github.com/paulojeronimo/blockchain-em-metas</a>.</p>
+</div>
+<div class="paragraph">
+<p>A renderização deste documento nos formatos HTML e PDF é feita através
+do script <code>build.sh</code> disponível em seu repositório Git.</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
