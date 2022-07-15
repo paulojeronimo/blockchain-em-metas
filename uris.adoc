@@ -1,0 +1,30 @@
+// URIs
+:uri-paulojeronimo-linkedin: https://www.linkedin.com/in/paulojeronimo/
+:uri-doc-github: https://github.com/paulojeronimo/blockchain-em-metas
+:uri-blockchainrio: https://blockchainrio.com.br/
+:uri-fibonacci-app: https://finisher.tech/fibonacci-app/
+:uri-asciidoc: https://docs.asciidoctor.org/asciidoc/latest/
+
+:uri-july10k: https://www.strava.com/challenges/July-10k-2022
+:uri-saudeecripto-pdf: https://finisher.tech/saudeecripto.pdf
+:uri-sobrepeso-adoece-pdf: https://finisher.tech/sobrepeso-adoece.pdf
+:uri-mvp: https://pt.wikipedia.org/wiki/Produto_vi%C3%A1vel_m%C3%ADnimo
+:uri-tw-metas: http://paulojeronimo.com/tw-metas/
+
+:uri-metas-video1: https://www.instagram.com/p/B7cKrFuHdC6/
+:uri-metas-video2: https://www.youtube.com/watch?v=smpcotGqlX8
+:uri-metas-video3: https://www.youtube.com/watch?v=I9cZnMsuO6s
+
+:uri-solidity: https://docs.soliditylang.org/en/v0.8.15/
+:uri-hardhat: https://hardhat.org/
+:uri-ipfs: https://github.com/ipfs/ipfs
+:uri-ethersjs: https://docs.ethers.io/v5/
+:uri-infrura: https://infura.io/
+:uri-erc-20: https://ethereum.org/en/developers/docs/standards/tokens/erc-20/
+:uri-erc-721: https://ethereum.org/en/developers/docs/standards/tokens/erc-721/
+:uri-erc-1155: https://ethereum.org/en/developers/docs/standards/tokens/erc-1155/
+:uri-polygon: https://polygon.technology/
+:uri-typescript: https://www.typescriptlang.org/
+:uri-reactjs: https://reactjs.org/
+:uri-nextjs: https://nextjs.org/
+:uri-metamask: https://metamask.io/

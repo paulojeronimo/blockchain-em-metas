@@ -1,0 +1,396 @@
+= Blockchain em Metas (e Resultados)
+:idprefix:
+:idseparator: -
+:icons: font
+:linkcss:
+:sectanchors:
+:uri-doc: https://paulojeronimo.com/blockchain-em-metas
+:toc: left
+:toc-title: {doctitle}
+ifdef::backend-html5[]
+:nofooter:
+:neste-doc: nesta página
+:deste-doc: desta página
+:Este-doc-e-escrito: Esta página é escrita
+endif::[]
+ifdef::backend-pdf[]
+:toc-title!:
+:neste-doc: neste documento
+:deste-doc: deste documento
+:Este-doc-e-escrito: Este documento é escrito
+endif::[]
+
+[.text-center]
+{nbsp} +
+{nbsp} +
+{nbsp} +
+{nbsp} +
+{nbsp} +
+Autor: *Paulo Jerônimo* (https://paulojeronimo.com). +
+Versão: *{localdatetime}.* +
+Estado {deste-doc}: *EM DESENVOLVIMENTO*. +
+{nbsp} +
+{nbsp} +
+{nbsp} +
+{nbsp} +
+{nbsp}
+
+ifdef::backend-html5[]
+TIP: Baixe a versão em PDF {deste-doc} em
+link:blockchain-em-metas.pdf[].
+endif::[]
+ifdef::backend-pdf[]
+TIP: Acompanhe a evolução {deste-doc} em +
+{uri-doc}.
+endif::[]
+
+include::uris.adoc[]
+include::attributes.adoc[]
+
+<<<
+== Introdução
+
+Participar de um {uri-blockchainrio}[um grande evento de tecnologia] é
+sempre muito interessante!
+*Aprender muito* e *conhecer pessoas* (ampliando o _network_) são os
+maiores objetivos, com certeza, de muita gente que se inscreve em um
+evento como o *{BlockchainRio}*.
+Para mim, além de contemplar esses dois (2) objetivos, a participação
+nesse evento também é motivacional para o estabelecimento de algumas
+<<Metas>> que torno públicas {neste-doc}.
+
+<<Metas>> devem estar na pauta de todo bom profissional (em qualquer
+área) e de todo atleta (partindo dos amadores).  Gosto muito desse
+assunto e, algumas vezes, tentei incentivar pessoas a trabalhar comigo
+do desenvolvimento de um aplicativo descentralizado (DApp) sobre isso,
+como você pode ver em alguns vídeos ({metas-video1}, {metas-video2}) que
+criei.
+Porém, minha estratégia de chamar pessoas para me ajudar não foi bem
+sucedida e, por outras prioridades no trabalho, acabou que nunca
+criei esse DApp.
+A última tentativa que fiz de chamar pessoas para me ajudar nisso
+{uri-metas-video3}[está nesse vídeo].
+
+Passados mais de dois anos, e agora com bem mais experiência em
+tecnologias de _frontend_ úteis na criação de DApps, neste momento eu
+tenho muito mais facilidade para desenvolver o <<MetasApp>>, até mesmo
+com pouca ajuda de outras pessoas, de uma forma _fullstack_.
+
+O {BlockchainRio} me trouxe motivação suficiente para priorizar e
+finalizar a entrega de um {MVP} para do <<MetasApp>>.
+Na semana desse evento (e antes de seu início) eu irei explicar, em um
+curso online e gratuito, como desenvolvi esse MVP de acordo com as
+regras que apresento {neste-doc}.
+Então, minha meta para isso é a "{meta-cursometasappv1}".
+Além disso, no primeiro dia do {BlockchainRio}, também farei o
+lançamento desse DApp em produção.
+Essa é a minha meta "{meta-lancamentometasappv1}".
+
+Como um {uri-saudeecripto-pdf}[triatleta amador (3 x Ironman)] que
+{uri-sobrepeso-adoece-pdf}[por razões de saúde não pode ficar sem
+atividades físicas diárias], você verá que várias das minhas <<Metas>>
+são relativas a atividades esportivas e, nos próximos dias, também
+focadas em emagrecimento através de atividades como {meta-corrida21min}
+e {meta-hiit21min}.
+
+include::metas-app-intro.adoc[]
+
+[[notificacoes]]
+Acompanhe o lançamento de novas versões {deste-doc}, notificadas em
+{uri-paulojeronimo-linkedin}[meu LinkedIn] até o {meta-cursometasappv1},
+para obter o conhecimento (negocial) necessário para o entender o que
+será apresentado nesse curso (para desenvolvedores de software).
+
+<<<
+== Calendários
+
+Os calendários "<<Brutos>>" (ou "não <<Refinados>>") a seguir apresentam
+*oito (8) semanas* contemplando os dias *a partir do dia 14 de Julho
+(quinta-feira) e até o dia 7 de Setembro de 2022 (quarta-feira)*.
+O primeiro calendário vai até a semana 3 e o segundo vai da semana 4 a
+8 (5 semanas).
+Ele mostra algumas de minhas atividades e <<Metas>> até essa oitava
+semana, quando ocorrerá o {BlockchainRio}.
+
+Detalhes (interessantes):
+
+* O número oito (8) é um {uri-fibonacci-app}[número da série de
+  Fibonacci] (<- veja esse app que desenvolvi para que você aprenda
+sobre esses números).
+Nessa série cada número é a soma dos dois anteriores (8 é a soma de 5
+com 3, 5 é a soma de 3 com 2, ..., até 1 que é a soma de 1 com 0).
+Pode acreditar: eles são números mágicos e, geralmente, gosto de
+utilizá-los para definir minhas <<Metas>>.
+ifdef::backend-html5[]
+😁
+endif::[]
+ifdef::backend-pdf[]
+icon:smile[]
+endif::[]
+* Os links (clicáveis) nos dias remetem a mais detalhes que sobre
+  atividades (ou <<Metas>>) apresentadas nele.
+* [[regra-refina]] As metas da semana corrente são, obrigatoriamente,
+  refinadas em seu primeiro dia (<- *regra-refina*).
+Dessa forma as metas da semana 1 são refinadas no dia 14/Jul, as da
+semana 2 no dia 21/Jul e assim por diante.
+
+=== Brutos
+
+Calendários "Brutos" contém <<Metas>> que precisam ser refinadas,
+semanalmente, conforme a <<regra-refina>>.
+Refinar uma meta significa torná-la ainda mais _SMART_ (e**S**pecífica,
+**M**ensurável, **A**tingível, **R**elevante e **T**emporizável).
+
+[[sem1-bru]]
+[cols="^1,^2,^2,^2,^2,^2,^2,^2"]
+|===
+| Semana | Qui | Sex | Sab | Dom | Seg | Ter | Qua
+
+| *1* +
+<<sem1-ref,Ref>> +
+Res
+| 14/Jul +
+*{meta-jejum24h}*
+| 15 +
+*{meta-ativfis1hd}*
+| 16 +
+*{meta-ativfis1hd} x 1,5*
+| 17 +
+*{meta-ativfis1hd} x 2*
+| 18 +
+*{meta-ativfis1hd}*
+| 19 +
+*{meta-jejum24h}* +
+*{meta-ativfis1hd}*
+| 20 +
+*{meta-ativfis1hd}*
+
+| *2* +
+| 21 +
+| 22
+| 23
+| 24
+| 25
+| 26 +
+| 27
+
+| *3*
+| 28 +
+| 29
+| 30 +
+*{meta-july10k}*
+| 31
+| 01/Ago
+| 02 +
+| 03
+
+|===
+
+<<<
+[cols="^1,^2,^2,^2,^2,^2,^2,^2"]
+|===
+| Semana | Qui | Sex | Sab | Dom | Seg | Ter | Qua
+
+| *4* +
+| 04/Ago +
+*[red]#{meta-menos5kg}#*
+| 05
+| 06
+| 07
+| 08
+| 09
+| 10
+
+| *5* +
+| 11
+| 12
+| 13
+| 14
+| 15
+| 16
+| 17
+
+| *6* +
+| 18
+| 19
+| 20
+| 21
+| 22
+| 23
+| 24
+
+| *7* +
+| 25 +
+*[red]#{meta-menos10kg}#*
+| 26
+| 27 +
+*[green]#Vôo de ida Brasília -> Rio de Janeiro#*
+| 28
+| 29 +
+*{meta-cursometasappv1}*
+| 30 +
+*{meta-cursometasappv1}*
+| 31 +
+*{meta-cursometasappv1}*
+
+| *8* +
+| 01/Set +
+*{BlockchainRio}* +
+*{meta-lancamentometasappv1}*
+| 02 +
+*{BlockchainRio}*
+| 03 +
+*{BlockchainRio}*
+| 04 +
+*{BlockchainRio}*
+| 05 +
+*{meta-finishertechdao}*
+| 06
+| 07 +
+Feriado Nacional
+
+|===
+
+=== Refinados
+
+Esses são os calendários já refinados (conforme a <<regra-refina>>).
+
+[[regra-verifica-execucao]] Diariamente, o <<MetasApp>> executa
+processos que verificam a execução das metas refinadas e apresentadas
+nesses calendários (<- *regra-verifica-execucao*).
+
+[[sem1-ref]]
+[cols="^1,^2,^2,^2,^2,^2,^2,^2"]
+|===
+| Semana | Qui | Sex | Sab | Dom | Seg | Ter | Qua
+
+| *1* +
+<<sem1-bru,Bru>>
+| 14/Jul +
+*{meta-jejum24h}* +
+*{meta-caminhada34min}*
+| 15 +
+*{meta-caminhada34min}* +
+*{meta-corrida21min}*
+| 16 +
+*{meta-caminhada34min}* +
+*{meta-hiit21min} x 2*
+| 17 +
+*{meta-caminhada34min}* +
+*{meta-hiit21min} x 2*
+| 18 +
+*{meta-caminhada34min}* +
+*{meta-corrida21min}*
+*{meta-hiit21min}*
+| 19 +
+*{meta-jejum24h}*
+*{meta-caminhada34min}* +
+*{meta-corrida21min}*
+*{meta-hiit21min}*
+| 20 +
+*{meta-caminhada34min}* +
+*{meta-corrida21min}*
+*{meta-hiit21min}*
+|===
+
+<<<
+== Metas
+
+. *[[meta-ativfis1hd]] <<detmeta-ativfis1hd,{ativfis1hd}>> -> {ativfis1hd-desc}*.
+. *[[meta-caminhada34min]] <<detmeta-caminhada34min,{caminhada34min}>> -> {caminhada34min-desc}*.
+. *[[meta-corrida21min]] <<detmeta-corrida21min,{corrida21min}>> -> {corrida21min-desc}*.
+. *[[meta-hiit21min]] <<detmeta-hiit21min,{hiit21min}>> -> {hiit21min-desc}*.
+. *[[meta-july10k]] <<detmeta-july10k,{july10k}>> -> {july10k-desc}*.
+. *[[meta-menos5kg]] <<detmeta-menos5kg,{menos5kg}>> -> {menos5kg-desc}*.
+. *[[meta-menos10kg]] <<detmeta-menos10kg,{menos10kg}>> -> {menos10kg-desc}*.
+. *[[meta-cursometasappv1]] <<detmeta-cursometasappv1,{cursometasappv1}>> -> {cursometasappv1-desc}*.
+. *[[meta-lancamentometasappv1]] <<detmeta-lancamentometasappv1,{lancamentometasappv1}>> -> {lancamentometasappv1-desc}*.
+. *[[meta-finishertechdao]] <<detmeta-finishertechdao,{finishertechdao}>> -> {finishertechdao-desc}*.
+. *[[meta-jejum24h]] <<detmeta-jejum24h,{jejum24h}>> -> {jejum24h-desc}*.
+
+<<<
+=== Detalhamento
+
+. [[detmeta-ativfis1hd]] {meta-ativfis1hd}:
+.. {ativfis1hd-desc}.
+
+. [[detmeta-caminhada34min]] {meta-caminhada34min}:
+.. {caminhada34min-desc}.
+
+. [[detmeta-corrida21min]] {meta-corrida21min}:
+.. {corrida21min-desc}.
+
+. [[detmeta-hiit21min]] {meta-hiit21min}:
+.. {hiit21min-desc}.
+
+. [[detmeta-july10k]] {meta-july10k}:
+.. {july10k-desc}.
+.. {uri-july10k}.
+
+. [[detmeta-menos5kg]] {meta-menos5kg}:
+.. {menos5kg-desc}.
+.. Data específica: 07/Jul/2022.
+.. Metas auxiliares:
+... {meta-jejum24h}
+
+. [[detmeta-menos10kg]] {meta-menos10kg}:
+.. {menos10kg-desc}.
+.. Data específica: 07/Jul/2022.
+
+. [[detmeta-cursometasappv1]] {meta-cursometasappv1}:
+.. {cursometasappv1-desc}.
+
+. [[detmeta-lancamentometasappv1]] {meta-lancamentometasappv1}:
+.. {lancamentometasappv1-desc}.
+
+. [[detmeta-finishertechdao]] {meta-finishertechdao}:
+.. {finishertechdao-desc}.
+
+. [[detmeta-jejum24h]] {meta-jejum24h}:
+.. {jejum24h-desc}.
+.. Geralmente, iniciado às 20:00:00 do dia anterior e durando até às
+19:59:59 do dia corrente.
+
+<<<
+[[MetasApp]]
+== Metas.App
+
+include::metas-app-intro.adoc[]
+
+TIP: Acompanhe <<notificacoes>> da evolução {deste-doc} que trarão mais
+detalhes a respeito.
+
+=== Tecnologias
+
+O {MVP} do Metas.App está em desenvolvimento fazendo uso de tecnologias
+como as seguintes:
+
+. _Backend_:
+{Solidity}, {Hardhat}, {Infrura}, {IPFS}, {ERC-20},
+{ERC-721}, {ERC-1155}, {Polygon}.
+. _Frontend_:
+{TypeScript}, {ReactJS}, {NextJS}, {EthersJS}, {Metamask}.
+
+////
+<<<
+== Referências
+
+. Jejum:
+.. https://www.youtube.com/watch?v=zngjyqho3y0 +
+Jejum de 24 horas \*aplicações e problemas*
+////
+<<<
+ifdef::backend-html5[]
+== Sobre esta página
+endif::[]
+ifdef::backend-pdf[]
+== Sobre este documento
+endif::[]
+
+{Este-doc-e-escrito} em {uri-asciidoc}[AsciiDoc] e renderizado nos
+formatos HTML e PDF.
+Seu código fonte está disponível sob a licença MIT no seguinte
+repositõrio Git: {uri-doc-github}.
+
+A renderização deste documento nos formatos HTML e PDF é feita através
+do script `build.sh` disponível em seu repositório Git.

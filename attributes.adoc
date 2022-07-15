@@ -1,0 +1,61 @@
+:BlockchainRio: {uri-blockchainrio}[Blockchain Rio]
+:MVP: {uri-mvp}[MVP]
+:metas-video1: {uri-metas-video1}[1]
+:metas-video2: {uri-metas-video2}[2]
+
+// Metas/ids
+:menos5kg: 5 kg + leve
+:menos10kg: 10 kgs + leve
+:ativfis1hd: 1 h/d ativ. fís.
+:cursometasappv1: Curso MVP Metas.App
+:lancamentometasappv1: Lança. MVP Metas.App
+:jejum24h: 24 h Jejum
+:caminhada34min: 34 min caminhada
+:corrida21min: 21 min corrida
+:corrida34min: 34 min corrida
+:hiit21min: 21 min HIIT
+:finishertechdao: DAO Finisher.Tech
+:july10k: July 10k Strava
+
+// Metas/descricoes (uma descricao p/ cada id)
+:menos5kg-desc: Estar 5 kgs mais leve que em uma data específica
+:menos10kg-desc: Estar 10 kgs mais leve que em uma data específica
+:ativfis1hd-desc: Realizar 1 hora de atividades físicas por dia
+:cursometasappv1-desc: Apresentar um curso focado no desenvolvimento do MVP do Metas.App
+:lancamentometasappv1-desc: Lançar o MVP do Metas.App em produção
+:jejum24h-desc: Realizar 24 horas de Jejum
+:caminhada34min-desc: Caminhar por 34 minutos a uma velocidade superior a 7 km/h
+:corrida21min-desc: Correr por 21 minutos (ou +)
+:corrida34min-desc: Correr por 34 minutos (ou +)
+:hiit21min-desc: Realizar 'High Intensity Interval Training' (HIIT) por 21 minutos
+:finishertechdao-desc: Apresentar a Finisher.Tech como uma DAO
+:july10k-desc: Participar do desafio 'July 10k' da Strava
+
+// Metas/links-internos
+:meta-menos5kg: <<meta-menos5kg,{menos5kg}>>
+:meta-menos10kg: <<meta-menos10kg,{menos10kg}>>
+:meta-ativfis1hd: <<meta-ativfis1hd,{ativfis1hd}>>
+:meta-cursometasappv1: <<meta-cursometasappv1,{cursometasappv1}>>
+:meta-lancamentometasappv1: <<meta-lancamentometasappv1,{lancamentometasappv1}>>
+:meta-finishertechdao: <<meta-finishertechdao,{finishertechdao}>>
+:meta-jejum24h: <<meta-jejum24h,{jejum24h}>>
+:meta-caminhada34min: <<meta-caminhada34min,{caminhada34min}>>
+:meta-corrida21min: <<meta-corrida21min,{corrida21min}>>
+:meta-corrida34min: <<meta-corrida34min,{corrida34min}>>
+:meta-hiit21min: <<meta-hiit21min,{hiit21min}>>
+:meta-july10k: <<meta-july10k,{july10k}>>
+
+// Tecnologias
+:Solidity: {uri-solidity}[Solidity]
+:Hardhat: {uri-hardhat}[Hardhat]
+:Polygon: {uri-polygon}[Polygon]
+:Infrura: {uri-infrura}[Infrura]
+:IPFS: {uri-ipfs}[IPFS]
+:ERC-20: {uri-erc-20}[ERC-20]
+:ERC-721: {uri-erc-721}[ERC-721]
+:ERC-1155: {uri-erc-1155}[ERC-1155]
+:EthersJS: {uri-ethersjs}[Ethers.js]
+:TypeScript: {uri-typescript}[TypeScript]
+:ReactJS: {uri-reactjs}[React.js]
+:NextJS: {uri-nextjs}[Next.js]
+:Metamask: {uri-metamask}[Metamask]

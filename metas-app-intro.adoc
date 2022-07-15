@@ -1,0 +1,4 @@
+O <<MetasApp>> é, fundamentalmente, um DApp que auxilia pessoas a
+elaborarem (ou aderirem a) metas de bem-estar, e de outras categorias,
+de forma a ganharem tokens fungíveis e não fungíveis (NFTs) pelos
+resultados de suas metas.
